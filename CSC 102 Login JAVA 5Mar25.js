@@ -1,5 +1,6 @@
 function checkCreds()
 {
+    // Establishing the variables 
     var firstName = document.getElementById("fName").value;
     var lastName = document.getElementById("lName").value;
     var fullName = firstName +  " " + lastName;
@@ -7,6 +8,7 @@ function checkCreds()
     var badgeNum = document.getElementById("badgeID").value;
     var passW = document.getElementById("PW").value;
 
+    // Establishing arguements for inputs
     if (fullName.length <= 1)
     {
         document.getElementById("loginStatus").innerHTML = "Names must have values";
