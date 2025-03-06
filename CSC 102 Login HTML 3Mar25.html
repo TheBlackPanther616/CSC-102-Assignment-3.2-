@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This is to link the CSS-->
+    <link rel = "stylesheet" href = "CSC 102 Login CSS_JHJ 6Mar25 .css">
+    <!--This is the link to the javascript-->
+    <script src= "CSC 102 Login JAVA 5Mar25.js"></script>
+
+    <title>login</title>
+</head>
+<body>
+    <h1> Access to Fringe Division</h1>
+
+<form id = "login" onsubmit = "return false">
+
+    First Name: <input type ="text" id = "fName"/>
+    <br>
+
+    <br>
+    Last Name: <input type = "text" id = "lName"/>
+    <br>
+
+    <br>
+    Badge Number: <input type = "number" id = "badgeID"/>
+    <br>
+
+    <br>
+    Password: <input type = "password" id ="PW"/>
+    <input type = "submit" onclick = "checkCreds();">
+
+</form>
+
+<p id = "loginStatus">Status of Login</p>
+
+</body>
+</html>

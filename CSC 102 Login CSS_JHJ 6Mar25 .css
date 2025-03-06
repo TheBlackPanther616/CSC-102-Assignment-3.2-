@@ -1,0 +1,17 @@
+body
+{
+    background-image: url(Images/fringe_division.jpg);
+    background-repeat: no-repeat;
+    
+
+}
+p
+{
+    background-color: transparent;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: aquamarine;
+}
